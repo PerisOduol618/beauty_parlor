@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Marck+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Marck+Script&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Marck+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Marck+Script&display=swap");
 
 nav {
   /* max-width: 960px; */
@@ -66,58 +66,72 @@ nav > ul > li > a:hover {
   margin: 0;
   padding: 0;
   /* font-family: 'Courgette', cursive; */
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
 }
 
-#about{
-
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Architects Daughter', cursive;
+#about {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Architects Daughter", cursive;
 }
 
-.card{
-    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 30%;
+.card1,
+.card2,
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+}
+#safari {
+  display: flex;
+  justify-content: space-around;
+}
+.description {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+}
+.des {
+  text-align: center;
 }
 
-.description{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Courgette', cursive;
-
-}
-.des{
-    text-align: center;
+#services {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Architects Daughter", cursive;
 }
 
-
-#services
-
-.loc-hours{
-    display: flex;
-    justify-content: space-around;
+#blog {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Architects Daughter", cursive;
 }
 
-#icons{
-    text-align: center;
-    padding-right:30px;
+.loc-hours {
+  display: flex;
+  justify-content: space-around;
 
 }
 
-#icons >a {
-    padding-right: 30px;
+#contacts {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Architects Daughter", cursive;
 }
- 
-.person{
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: inline-block;
-    line-height: 50px;
+#icons {
+  text-align: center;
+  padding-right: 30px;
 }
 
+#icons > a {
+  padding-right: 30px;
+}
 
-
+.person {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 50px;
+}
